@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Barre de navigation */
+
+nav {
+    background-color: #B11313;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/**Polices d'écriture */
+
+h1 {
+    font-family: 'Far From Homecoming Regular';
+}
+
+
+/** Le contenu */
+
+main {
+    background-image: url(./assets/img/Illustration/img35.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+
+.container-fluid {
+    top: 40%;
+    padding-left: 10%;
+    position: relative;
+}
+
+
+/** Le bas de page */
+
+footer {
+    background-color: #000000;
+    height: 300px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
